@@ -5,8 +5,6 @@ import torch.optim as optim
 from torch.autograd import Variable
 import torch.nn.functional as F
 
-dtype = torch.FloatTensor
-
 # Text-CNN Parameter
 embedding_size = 2 
 sequence_length = 3
